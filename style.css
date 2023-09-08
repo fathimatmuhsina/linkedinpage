@@ -1,0 +1,139 @@
+
+body{
+  background: #e3e9e9;
+  color: #000000;
+}
+.fa-solid{
+  margin-top: 5px;
+}
+.text{
+  border-radius: 5px;
+  border: none;
+  width:200px;
+  background-color: rgb(237, 243, 248);
+  padding-left: 30px;
+  height: 30px;
+  font-size:15px;
+}
+.text:focus{
+  width: 250px;
+  transition: 0.5s;
+}
+.input i{
+  z-index:1;
+  position: absolute;
+  padding-left: 10px;
+  margin-top: 6px;
+  
+}
+
+.d-flex a{
+  color: rgb(108, 117, 125);
+  text-decoration: none;
+  font-size: 13px;
+  /* align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column; */
+
+}
+.nav-icon:hover{
+  color: #000000;
+}
+.d-flex a:hover{
+  color: #000000;
+}
+/* .search-btn{
+  z-index:1;
+  position:absolute;
+  background-color: rgb(14, 13, 13);
+  border: none;
+  width: 20px;
+} */
+.form-control {
+  font-size: 10px;
+  font-weight: bold;
+}
+.form-control:hover{
+  background-color: #e1dede;
+}
+.post-option{
+  font-size: 10px;
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 3px;
+  border: none;
+  background-color: white;
+}
+.post-option:hover{
+  background-color: rgb(211, 211, 211);
+}
+.profile-menu-wrap{
+  position: absolute;
+  /* top: 100%; */
+  right: 18%;
+  width: 300px;
+  z-index: 1;
+  margin-top: 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+
+}
+.profile-menu-wrap.open-menu{
+  max-height: 400px;
+
+}
+
+.profile-menu{
+  background-color: #fbfbfb;
+  color: rgb(13, 12, 12);
+  padding: 20px;
+  margin: 10px;
+
+}
+.user-info{
+  display: flex;
+  align-items: center;
+}
+.user-info img{
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.user-info h3{
+  font-weight: 500;
+  margin-bottom: -7px;
+}
+.user-info a{
+  color:#78797a;
+  font-size: 13px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.profile-menu-link{
+  color:#78797a; ;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link{
+  color:#78797a ;
+  text-decoration: none;
+
+}
+.link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.tags{
+  padding-left: 10px;
+  cursor: pointer;;
+}
+.tags button{
+  background-color: white;
+  border: none;
+  text-decoration: none;
+}
+.discover:hover{
+  background-color: #78797a;
+}
